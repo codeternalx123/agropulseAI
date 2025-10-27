@@ -5,6 +5,21 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import { theme, spacing, typography } from '../theme/theme';
 import { uploadAPI } from '../services/api';
+
+/**
+ * ImageUploader Component
+ * 
+ * A reusable component for uploading images with camera/gallery support
+ * 
+ * Props:
+ * - category: Image category (plant, leaf, soil, farm, general)
+ * - multiple: Allow multiple image selection (default: false)
+ * - maxImages: Maximum number of images (default: 5)
+ * - onUploadComplete: Callback with uploaded image data
+ * - onUploadError: Callback with error message
+ * - previewSize: Size of image preview (default: 150)
+ * - showPreview: Show image previews (default: true)
+ */
 const ImageUploader = ({
   category = 'general',
   multiple = false,
