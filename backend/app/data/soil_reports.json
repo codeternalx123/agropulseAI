@@ -1,0 +1,42 @@
+{
+  "test_farmer_001": {
+    "field_001": [
+      {
+        "moisture_level": "damp",
+        "ts": "2025-10-24T09:42:31.871840"
+      }
+    ]
+  },
+  "test_farmer_002": {
+    "field_002": [
+      {
+        "moisture_level": "dry",
+        "ts": "2025-10-24T09:42:31.887461"
+      }
+    ]
+  },
+  "test_farmer_003": {
+    "field_003": [
+      {
+        "moisture_level": "damp",
+        "ts": "2025-10-24T09:42:31.903085"
+      }
+    ]
+  },
+  "test_farmer_005": {
+    "field_005": [
+      {
+        "moisture_level": "damp",
+        "ts": "2025-10-24T09:42:31.931885"
+      }
+    ]
+  },
+  "integration_farmer_001": {
+    "integration_field_001": [
+      {
+        "moisture_level": "damp",
+        "ts": "2025-10-24T09:42:31.963133"
+      }
+    ]
+  }
+}

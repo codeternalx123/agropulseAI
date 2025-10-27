@@ -1,0 +1,13 @@
+{
+  "integration_farmer_001": {
+    "integration_field_001": [
+      {
+        "crop": "maize",
+        "variety": "short_season",
+        "planting_date": "2025-10-24T09:42:32.018373",
+        "area_hectares": 2.5,
+        "recorded_at": "2025-10-24T09:42:32.018373"
+      }
+    ]
+  }
+}

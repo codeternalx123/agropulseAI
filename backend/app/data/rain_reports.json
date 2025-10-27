@@ -1,0 +1,11 @@
+[
+  {
+    "farmer_id": "integration_farmer_001",
+    "location": {
+      "lat": -1.2921,
+      "lon": 36.8219
+    },
+    "amount": "moderate",
+    "ts": "2025-10-24T09:42:31.963133"
+  }
+]
