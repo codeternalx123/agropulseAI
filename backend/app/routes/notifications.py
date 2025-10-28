@@ -1,7 +1,7 @@
-from fastapi import APIRouter
-
+from fastapi import APIRouter, Request
+from fastapi.responses import JSONResponse
 router = APIRouter()
-
-@router.get("/")
-async def Notifications_endpoint():
-    return {"message": "Notifications endpoint"}
+@router.post('/partner_alert')
+async def partner_alert(request: Request):
+    body = await request.json()
+    return JSONResponse({'sent':[]})

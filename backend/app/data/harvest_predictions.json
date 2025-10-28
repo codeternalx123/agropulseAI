@@ -1,0 +1,54 @@
+{
+  "test_farmer_005": {
+    "field_005_2025-10-24T09:42:31.931885_maize": {
+      "field_id": "field_005",
+      "crop": "maize",
+      "planting_date": "2025-10-24T09:42:31.931885",
+      "predicted_harvest_date": "2026-01-22T09:42:31.931885",
+      "weather_conditions": {
+        "conditions": "wet",
+        "rain_probability": 0.8,
+        "advice": "High rain risk! Prepare covered drying area or mechanical dryer.",
+        "icon": "🌧️"
+      },
+      "storage_status": {
+        "ready": null,
+        "temperature": null,
+        "humidity": null,
+        "issues": [
+          "No storage sensor data available"
+        ],
+        "recommendations": [
+          "Install BLE sensor in storage to monitor conditions"
+        ]
+      },
+      "calculated_at": "2025-10-24T09:42:31.931885"
+    }
+  },
+  "integration_farmer_001": {
+    "integration_field_001_2025-10-24T09:42:32.018373_maize": {
+      "field_id": "integration_field_001",
+      "crop": "maize",
+      "planting_date": "2025-10-24T09:42:32.018373",
+      "predicted_harvest_date": "2026-01-22T09:42:32.018373",
+      "weather_conditions": {
+        "conditions": "wet",
+        "rain_probability": 0.8,
+        "advice": "High rain risk! Prepare covered drying area or mechanical dryer.",
+        "icon": "🌧️"
+      },
+      "storage_status": {
+        "ready": null,
+        "temperature": null,
+        "humidity": null,
+        "issues": [
+          "No storage sensor data available"
+        ],
+        "recommendations": [
+          "Install BLE sensor in storage to monitor conditions"
+        ]
+      },
+      "calculated_at": "2025-10-24T09:42:32.037693"
+    }
+  }
+}
